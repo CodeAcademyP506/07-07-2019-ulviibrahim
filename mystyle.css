@@ -1,0 +1,36 @@
+.leftdiv, .rightdiv, .thirddiv {
+    border: 1px solid black;
+    height: 300px;
+    padding: 50px;
+    background: none;
+    width: 500px;
+    float: left;
+}
+.rightdiv {
+    background: none;
+}
+.thirddiv{
+    background: yellow;
+}
+
+.dragItemOver{
+    background:yellow
+}
+.colors{
+    width: 30px;
+    height: 30px;
+background: grey;
+border:1px solid #ccc;
+}
+
+.leftdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+}
+.rightdiv div {
+    border: 1px solid #eee;
+    height: 100px;
+}
